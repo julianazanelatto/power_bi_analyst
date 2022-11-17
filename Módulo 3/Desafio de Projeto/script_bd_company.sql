@@ -1,8 +1,8 @@
-create schema if not exists company_constraints;
-use company_constraints;
+create schema if not exists azure_company;
+use azure_company;
 
 select * from information_schema.table_constraints
-	where constraint_schema = 'company_constraints';
+	where constraint_schema = 'azure_company';
 
 -- restrição atribuida a um domínio
 -- create domain D_num as int check(D_num> 0 and D_num< 21);
