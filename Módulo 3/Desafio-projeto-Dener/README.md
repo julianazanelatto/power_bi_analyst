@@ -1,6 +1,6 @@
 ## Conexão com Banco de Dados "company_dener" com acesso e transformação das Tabelas
 
-Realizei conexão com o banco de dados "company_dener" e acessei as seguintes tabelas:
+Realizei conexão com o banco de dados "company_dener" com isso acessei e transformei as seguintes tabelas:
 
 - Tabela "departament"
 - Tabela "dependent"
@@ -8,6 +8,8 @@ Realizei conexão com o banco de dados "company_dener" e acessei as seguintes ta
 - Tabela "project"
 - Tabela "employee"
 - Tabela "works_on"
+
+Relatório de alteração de cada tabela:
 
 ### Tabela "departament"
 
