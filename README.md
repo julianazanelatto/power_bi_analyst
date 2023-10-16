@@ -20,7 +20,7 @@ O relatório segue o modelo proposto nas aulas com alteração pequenas no layou
 
 Relatório criado localmente.
 
-Fork e alterações realizadas no GitHub: Link: [[theresaportella:theresaportella-powerbi-desafioDIO](https://github.com/theresaportella/power_bi_analyst.git)](https://github.com/theresaportella/power_bi_analyst.git)
+Fork e alterações realizadas em nova branch no GitHub: Link: [[theresaportella:theresaportella-powerbi-desafioDIO](https://github.com/theresaportella/power_bi_analyst.git)](https://github.com/theresaportella/power_bi_analyst.git)
 
 Pull request realizado: Link: https://github.com/julianazanelatto/power_bi_analyst/pull/11
 
