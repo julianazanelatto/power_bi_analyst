@@ -1,6 +1,6 @@
 # Projeto do Relatório de finanças elegante com Power BI
 
-## Descrição
+## Desafio DIO
 
 Este projeto desenvolveu a criação de um relatório interativo no Power BI. 
 
