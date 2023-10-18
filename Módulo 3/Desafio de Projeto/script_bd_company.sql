@@ -60,7 +60,7 @@ create table dept_locations(
     constraint fk_dept_locations foreign key (Dnumber) references departament (Dnumber)
 );
 
-alter table dept_locations drop fk_dept_locations;
+alter table dept_locations drop foreign key fk_dept_locations;
 
 alter table dept_locations 
 	add constraint fk_dept_locations foreign key (Dnumber) references departament(Dnumber)
