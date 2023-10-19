@@ -1,5 +1,3 @@
-# power_bi_analyst
-
 1. Divisão de coluna address em address line 1, address line 2, city e state
 2. Mudança do tipo da coluna Salary na tabela Employee e da coluna Hours na tabela works_on para Número decimal fixo
 9. Mescla das tabelas Employee e Departament utilizando tipo de junção interna (inner join)
