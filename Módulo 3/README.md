@@ -46,6 +46,10 @@ As seguintes transformações foram feitas:
 3. Modiquei o nome dos headers para ficar mais claro o que significa cada coluna;
 4. Colunas complexas como Address foram separadas em AddressNo, Address_Name, City e State;
 5. Na existência de nulos, como na tabela employee, coluna Super_ssn, modifiquei para 0;
+6. Mesclei as consultas employee e departament, através do Dno (número do departamento) criando uma nova consulta "Merge1". Essa nova consulta contém as colunas de employee e o nome dos departamentos associados aos colaboradores (Department_Name). Exclui o restante que havia na consulta department;
+7. Em Merge1, mesclei as colunas Fname e Lname usando a função "Transform > Merge Columns" e nomeei como "Collaborators";
+8. Em Merge1, para mesclar os nomes de departamentos e localização, adicionei uma coluna chamada "Dept_Name_Location". Para fazer isso, fui na guia Adicionar Coluna > Coluna de Exemplos e usei a coluna "City" como exemplo. Feito isso, dupliquei a coluna "Department_Name" e usei a ferramenta merge columns para mesclar as cidades que estão em "Dept_Name_Location" com a coluna duplicada de "Department_Name". Utilizamos a mescla neste caso o que buscamos é unir as colunas de duas tabelas, se utilizassemos o método de atribuir iriamos unificar as linhas de duas consultas, podendo assim obter resultados nulos, já que uma consulta pode haver mais linhas em relação à outra;
+9. Colunas não utilizadas foram excluídas.
     
 
 
