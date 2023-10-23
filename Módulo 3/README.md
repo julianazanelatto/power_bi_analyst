@@ -44,7 +44,7 @@ As seguintes transformações foram feitas:
 1. Modifiquei o tipo dos valores de "Salary" do database azure_company employee para Número decimal fixo;
 2. Modifiquei o tipo dos valores de "Hours" do database azure_company employee para Número Inteiro;
 3. Modiquei o nome dos headers para ficar mais claro o que significa cada coluna;
-4. Colunas complexas como Address foram separadas em AddressNo, Address_Name, City e State;
+4. Colunas complexas como Address foram separadas em AddressNo, Address_Name, City e State usando o "Split Column";
 5. "Os employees com nulos em Super_ssn podem ser os gerentes". Em Headquarters (Dno = 1), Super_ssn = null. Modifiquei para que esse departamento seja gerenciado pelo próprio "employee", James Borg e modifiquei o Super_ssn para o ssn correspondente deste colaborador.
 6. Mesclei as consultas employee e departament, através do Dno (número do departamento) criando uma nova consulta "Merge1". Essa nova consulta contém as colunas de employee e o nome dos departamentos associados aos colaboradores (Department_Name). Exclui o restante que havia na consulta department;
 7. Em Merge1, mesclei as colunas Fname e Lname usando a função "Transform > Merge Columns" e nomeei como "Collaborators";
