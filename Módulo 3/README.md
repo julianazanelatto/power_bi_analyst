@@ -51,5 +51,10 @@ As seguintes transformações foram feitas:
 8. Em Merge1, para mesclar os nomes de departamentos e localização, adicionei uma coluna chamada "Dept_Name_Location". Para fazer isso, fui na guia Adicionar Coluna > Coluna de Exemplos e usei a coluna "City" como exemplo. Feito isso, dupliquei a coluna "Department_Name" e usei a ferramenta merge columns para mesclar as cidades que estão em "Dept_Name_Location" com a coluna duplicada de "Department_Name". Utilizamos a mescla neste caso o que buscamos é unir as colunas de duas tabelas, se utilizassemos o método de atribuir iriamos unificar as linhas de duas consultas, podendo assim obter resultados nulos, já que uma consulta pode haver mais linhas em relação à outra;
 9. Colunas não utilizadas foram excluídas.
     
+Veja como ficou a tabela "Merge1":
+<img width="619" alt="Screenshot 2023-10-23 115216" src="https://github.com/vanessalrz/power_bi_analyst/assets/122112581/0790e535-294d-4509-8d11-e4b215a34849">
+<img width="622" alt="Screenshot 2023-10-23 115329" src="https://github.com/vanessalrz/power_bi_analyst/assets/122112581/969161fb-b844-4db7-80f8-0487734ab964">
+<img width="622" alt="Screenshot 2023-10-23 115340" src="https://github.com/vanessalrz/power_bi_analyst/assets/122112581/df6e32e6-d73b-470c-8350-f0f10295a52b">
+
 
 
